@@ -20,7 +20,7 @@
 }
 .post-container .post-item-card > header .post-cover-backdrop img {
   width: 100%;
-  height: 360px;
+  height: 200px;
   object-fit: cover;
   transform: scale(1.2);
   filter: blur(20px);
@@ -32,7 +32,7 @@
   font-size: 0;
 }
 .post-container .post-item-card > header .post-cover-img {
-  max-height: 360px;
+  max-height: 200px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   will-change: transform;
   transition: transform 500ms;
@@ -171,7 +171,8 @@
 .post-container .recent-widget ul li:last-child section {
   border-bottom: none;
 }
-.post-container .recent-widget img, .post-container .recent-widget .post-img-placeholder {
+.post-container .recent-widget img,
+.post-container .recent-widget .post-img-placeholder {
   width: 50px;
   height: 50px;
   margin-right: 5px;
@@ -221,5 +222,5 @@
 .post-container .paginator .page-number.current,
 .post-container .paginator .extend.current {
   color: #fff !important;
-  background: #3273dc;
+  background: #839db3;
 }
