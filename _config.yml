@@ -106,5 +106,5 @@ theme: hexo-theme-claudia
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:powerfultraveling/web-blog.git
+  repo: git@github-powerfultraveling:powerfultraveling/web-blog.git
   branch: main
